@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Swisscows",
+    "description": "Basic extension to add Swisscows as a search engine",
+    "version": "0.0.1",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "swisscows@celenity.dev",
+            "update_url": "https://phoenix.celenity.dev/extensions/updates.json"
+        }
+    },
+    "developer": {
+        "name": "celenity 💘",
+        "url": "https://celenity.dev"
+    },
+    "homepage_url": "https://phoenix.celenity.dev",
+    "icons": {
+        "48": "imager/icon.png"
+    },
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "name": "Swisscows",
+            "search_url": "https://swisscows.com/web?query={searchTerms}",
+            "suggest_url": "https://swisscows.com/api/suggest?query={searchTerms}",
+            "keyword": "@swisscows",
+            "favicon_url": "/imager/favicon.ico",
+            "is_default": false
+        }
+    }
+}

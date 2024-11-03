@@ -2,14 +2,18 @@
     "manifest_version": 3,
     "name": "Mullvad Leta (Brave)",
     "description": "Basic extension to add Mullvad Leta (with Brave's index) as a search engine",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "browser_specific_settings": {
         "gecko": {
             "id": "leta-brave@celenity.dev",
             "update_url": "https://phoenix.celenity.dev/extensions/updates.json"
         }
     },
-    "homepage_url": "https://codeberg.org/celenity/Phoenix",
+    "developer": {
+        "name": "celenity 💘",
+        "url": "https://celenity.dev"
+    },
+    "homepage_url": "https://phoenix.celenity.dev",
     "icons": {
         "48": "imager/icon.png"
     },
