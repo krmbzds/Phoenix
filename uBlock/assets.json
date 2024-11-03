@@ -916,7 +916,8 @@
         "title": "AMP Hosts",
         "off": true,
         "contentURL": "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt",
-        "supportURL": "https://github.com/lightswitch05/hosts/issues"
+        "supportURL": "https://github.com/lightswitch05/hosts/issues",
+        "instructionURL": "https://brave.com/privacy-updates/18-de-amp/"
     },
     "badblocklite": {
         "content": "filters",
