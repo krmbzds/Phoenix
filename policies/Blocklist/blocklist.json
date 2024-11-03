@@ -133,21 +133,157 @@
                 "installation_mode": "blocked",
                 "blocked_install_message": "Ghostery Private Search for Firefox, by Ghostery. Unnecessary, just set in either about:preferences#search or from the Omnibox. I would avoid Ghostery Search anyways due to the company's sketchy practices & past of selling user data."
             },
+            "1und1@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in 1&1 Internet Search Engine in some regions. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/1und1/manifest.json"
+            },
+            "allegro-pl@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Allegro Search Engine in some regions. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/allegro-pl/manifest.json"
+            },
+            "amazon@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Amazon Search Engine. Amazon should be avoided due to its horrible privacy practices, but regardless, Amazon still appears to be selectable as a search engine with this removed. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/amazon/manifest.json"
+            },
+            "amazondotcn@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Amazon Search Engine. Amazon should be avoided due to its horrible privacy practices, but regardless, Amazon still appears to be selectable as a search engine with this removed. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/amazondotcn/manifest.json"
+            },
             "amazondotcom@search.mozilla.org": {
                 "installation_mode": "blocked",
-                "blocked_install_message": "Mozilla's extension for the built-in Amazon Search Engine. Amazon should be avoided due to its horrible privacy practices, but regardless, Amazon still appears to be selectable as a search engine with this removed."
+                "blocked_install_message": "Mozilla's extension for the built-in Amazon Search Engine. Amazon should be avoided due to its horrible privacy practices, but regardless, Amazon still appears to be selectable as a search engine with this removed. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/amazondotcom/manifest.json"
+            },
+            "baidu@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Baidu Search Engine in some regions. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/baidu/manifest.json"
             },
             "bing@search.mozilla.org": {
                 "installation_mode": "blocked",
-                "blocked_install_message": "Mozilla's extension for the built-in Bing Search Engine. Bing should be avoided due to its horrible privacy practices, but regardless, Bing still appears to be selectable as a search engine with this removed."
+                "blocked_install_message": "Mozilla's extension for the built-in Bing Search Engine. Bing should be avoided due to its horrible privacy practices, but regardless, Bing still appears to be selectable as a search engine with this removed. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/bing/manifest.json"
+            },
+            "ceneji@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Ceneje Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/ceneji/manifest.json"
+            },
+            "coccoc@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Cốc Cốc Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/coccoc/manifest.json"
+            },
+            "daum-kr@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Daum Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/daum-kr/manifest.json"
             },
             "ebay@search.mozilla.org": {
                 "installation_mode": "blocked",
-                "blocked_install_message": "Mozilla's extension for the built-in eBay Search Engine. eBay should be avoided due to its horrible privacy practices, but regardless, eBay still appears to be selectable as a search engine with this removed."
+                "blocked_install_message": "Mozilla's extension for the built-in eBay Search Engine. eBay should be avoided due to its horrible privacy practices, but regardless, eBay still appears to be selectable as a search engine with this removed. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/ebay/manifest.json"
+            },
+            "eudict@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in EUdict Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/eudict/manifest.json"
+            },
+            "gmx@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in GMX Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/gmx/manifest.json"
             },
             "google@search.mozilla.org": {
                 "installation_mode": "blocked",
-                "blocked_install_message": "Mozilla's extension for the built-in Google Search Engine. Google should be avoided due to its horrible privacy practices, but regardless, Google still appears to be selectable as a search engine with this removed."
+                "blocked_install_message": "Mozilla's extension for the built-in Google Search Engine. Google should be avoided due to its horrible privacy practices, but regardless, Google still appears to be selectable as a search engine with this removed. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/google/manifest.json"
+            },
+            "gulesider-NO@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Gulesider.no Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/gulesider-NO/manifest.json"
+            },
+            "leo_ende_de@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in LEO Eng-Deu Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/leo_ende_de/manifest.json"
+            },
+            "longdo@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Longdo Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/longdo/manifest.json"
+            },
+            "mailcom@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in mail.com Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/mailcom/manifest.json"
+            },
+            "mailru@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in @ Mail (mail.ru) Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/mailru/manifest.json"
+            },
+            "mapy-cz@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Mapy.cz Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/mapy-cz/manifest.json"
+            },
+            "mercadolibre@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in MercadoLibre Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/mercadolibre/manifest.json"
+            },
+            "mercadolivre@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in MercadoLivre Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/mercadolivre/manifest.json"
+            },
+            "naver-kr@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in NAVER Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/naver-kr/manifest.json"
+            },
+            "odpiralni@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Odpiralni Časi Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/odpiralni/manifest.json"
+            },
+            "pazaruvaj@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Pazaruvaj Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/pazaruvaj/manifest.json"
+            },
+            "priberam@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Priberam Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/priberam/manifest.json"
+            },
+            "prisjakt-sv-SE@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Prisjakt Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/prisjakt-sv-SE/manifest.json"
+            },
+            "rakuten@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Rakuten Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/rakuten/manifest.json"
+            },
+            "readmoo@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Readmoo Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/readmoo/manifest.json"
+            },
+            "salidzinilv@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Salidzini.lv Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/salidzinilv/manifest.json"
+            },
+            "seznam-cz@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Seznam Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/seznam-cz/manifest.json"
+            },
+            "tyda-sv-SE@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Tyda.se Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/tyda-sv-SE/manifest.json"
+            },
+            "vatera@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Vatera.hu Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/vatera/manifest.json"
+            },
+            "webde@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in WEB.DE Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/webde/manifest.json"
+            },
+            "wolnelektury-pl@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Wolne Lektury Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/wolnelektury-pl/manifest.json"
+            },
+            "yahoo-jp@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Yahoo! Search Engine. Should be avoided due to its horrible privacy practices, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/yahoo-jp/manifest.json"
+            },
+            "yahoo-jp-auctions@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Yahoo! Auctions Search Engine. Should be avoided due to its horrible privacy practices, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/yahoo-jp-auctions/manifest.json"
+            },
+            "yandex@search.mozilla.org": {
+                "installation_mode": "blocked",
+                "blocked_install_message": "Mozilla's extension for the built-in Yandex Search Engine. Should be avoided, but regardless, can still be added manually. https://searchfox.org/mozilla-release/source/browser/components/search/extensions/yandex/manifest.json"
             },
             "{585280b0-ee78-428a-92c5-3fb3c0b85460}": {
                 "installation_mode": "blocked",
