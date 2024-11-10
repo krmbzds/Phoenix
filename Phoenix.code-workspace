@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Phoenix.wiki"
+		},
+		{
+			"path": "../Phoenix-Policies-Fedora"
+		},
+		{
+			"path": "../Phoenix-Policies-macOS"
+		},
+		{
+			"path": "../../../../lib64/firefox"
+		},
+		{
+			"path": "../Phoenix-Policies-Windows"
+		},
+		{
+			"path": "../Phoenix-Policies-Arch"
+		},
+		{
+			"path": "../Phoenix-Policies-Debian"
+		},
+		{
+			"path": "../../.mozilla"
+		},
+		{
+			"path": "../../../../opt/firefox-dev"
+		}
+	],
+	"settings": {}
+}
