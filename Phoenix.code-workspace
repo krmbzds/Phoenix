@@ -5,12 +5,12 @@
 			"path": "."
 		},
 		{
-			"name": "Phoenix-Policies-Flatpak",
-			"path": "../Phoenix-Policies-Flatpak"
-		},
-		{
 			"name": "Phoenix.wiki",
 			"path": "../Phoenix.wiki"
+		},
+		{
+			"name": "Phoenix-Policies-Flatpak",
+			"path": "../Phoenix-Policies-Flatpak"
 		},
 		{
 			"name": "Phoenix-Policies-Fedora",
