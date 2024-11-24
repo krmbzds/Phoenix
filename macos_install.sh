@@ -1,11 +1,11 @@
 #!/bin/zsh
 
 wget https://phoenix.celenity.dev/mozilla.cfg
-sudo mv mozilla.cfg ~/Applications/Firefox.app/Contents/Resources/mozilla.cfg
+mv mozilla.cfg ~/Applications/Firefox.app/Contents/Resources/mozilla.cfg
 wget https://phoenix.celenity.dev/defaults/pref/local-settings.js
-sudo mkdir -p ~/Applications/Firefox.app/Contents/Resources/defaults/pref
-sudo chmod 755 ~/Applications/Firefox.app/Contents/Resources/defaults/pref
-sudo mv local-settings.js ~/Applications/Firefox.app/Contents/Resources/defaults/pref/local-settings.js
+mkdir -p ~/Applications/Firefox.app/Contents/Resources/defaults/pref
+chmod 755 ~/Applications/Firefox.app/Contents/Resources/defaults/pref
+mv local-settings.js ~/Applications/Firefox.app/Contents/Resources/defaults/pref/local-settings.js
 brew tap celenity/Phoenix-Policies-macOS https://codeberg.org/celenity/Phoenix-Policies-macOS
 brew update
 brew upgrade --force
@@ -17,7 +17,7 @@ cat << 'EOF' > ~/.local/bin/update_policies_phoenix.sh
 cp $(brew --prefix)/opt/phoenix-policies/etc/firefox/distribution/policies.json ~/Applications/Firefox.app/Contents/Resources/distribution/policies.json
 EOF
 
-sudo chmod +x ~/.local/bin/update_policies_phoenix.sh
+chmod +x ~/.local/bin/update_policies_phoenix.sh
 
 cat << 'EOF' > ~/Library/LaunchAgents/com.user.updatepoliciesphoenix.plist
 <?xml version="1.0" encoding="UTF-8"?>

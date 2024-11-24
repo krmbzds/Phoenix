@@ -1,11 +1,11 @@
 #!/bin/zsh
 
-sudo rm -f ~/Applications/Firefox.app/Contents/Resources/mozilla.cfg
-sudo rm -f ~/Applications/Firefox.app/Contents/Resources/defaults/pref/local-settings.js
+rm -f ~/Applications/Firefox.app/Contents/Resources/mozilla.cfg
+rm -f ~/Applications/Firefox.app/Contents/Resources/defaults/pref/local-settings.js
 sudo launchctl unload -w  ~/Library/LaunchAgents/com.user.updatepoliciesphoenix.plist
-sudo rm -f ~/Library/LaunchAgents/com.user.updatepoliciesphoenix.plist
-sudo rm -f ~/.local/bin/update_policies_phoenix.sh
-sudo rm -f ~/Applications/Firefox.app/Contents/Resources/distribution/policies.json
+rm -f ~/Library/LaunchAgents/com.user.updatepoliciesphoenix.plist
+rm -f ~/.local/bin/update_policies_phoenix.sh
+rm -f ~/Applications/Firefox.app/Contents/Resources/distribution/policies.json
 brew uninstall phoenix-policies
 brew untap celenity/Phoenix-Policies-macOS
 brew update
